@@ -1,10 +1,10 @@
 class Model {
     constructor() {
-        this.api = 'http://azhar.ddns.net:5000/mpthree?search=michaelJackson&limit=2'
+        this.api = 'https://mpthree.onrender.com/mpthree?search=michaelJackson&limit=2'
     }
 
     async getVideos(search, limit) {
-        const req = await fetch(`http://azhar.ddns.net:5000/mpthree?search=${search}&limit=${limit}`);
+        const req = await fetch(`https://mpthree.onrender.com/mpthree?search=${search}&limit=${limit}`);
         const res = await req.json();
         return res;
     }
