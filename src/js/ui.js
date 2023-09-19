@@ -20,7 +20,7 @@ class UI {
                     <p class="duration">${item.duration}</p>
                     <div class="buttons">
                         <a href="${item.link}" target="_blank" class="download-btn">Watch</a>
-                        <a href="#!" title="Download" class="db"><i class="fas fa-download"></i></a>
+                        <a href="https://mpthree.onrender.com/mpthree?download=${item.link}" title="Download" class="db"><i class="fas fa-download"></i></a>
                     </div>
                 </div>
             </div>
